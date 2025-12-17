@@ -29,9 +29,4 @@ else:
 
 difference = sum_even - sum_odd
 
-if difference == 0:
-    print('Суммы четных и нечетных чисел в этом диапазоне равны')
-elif difference < 0:
-    print('Сумма нечетных чисел в этом диапазоне больше')
-else:
-    print('Сумма четных чисел в этом диапазоне больше')
+print(difference)
